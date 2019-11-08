@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="As a user I want to book flights to travel" skipped="0" tests="1" time="47.6" timestamp="2019-11-07 01:55:36"><testcase name="make flight reservations"><error message="The following error occurred: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name='userName']&quot;}&#10;  (Session info: chrome=78.0.3904.87)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'CHMEPPF0FQ31E', ip: '192.168.252.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\CCORDE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62493}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 7e60024f81ce06fd7a415363c4838829&#10;*** Element info: {Using=name, value=userName}" type="org.openqa.selenium.NoSuchElementException">The following error occurred: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='userName']"}
+  (Session info: chrome=78.0.3904.87)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CHMEPPF0FQ31E', ip: '192.168.252.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\CCORDE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62493}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7e60024f81ce06fd7a415363c4838829
+*** Element info: {Using=name, value=userName}</error><system-err>The following error occurred: no such element: Unable
+    to locate element: {"method":"css selector","selector":"*[name='userName']"}
+    (Session info: chrome=78.0.3904.87)
+    For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+    Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+    System info: host: 'CHMEPPF0FQ31E', ip: '192.168.252.159', os.name: 'Windows 10', os.arch: 'amd64', os.version:
+    '10.0', java.version: '1.8.0_172'
+    Driver info: org.openqa.selenium.remote.RemoteWebDriver
+    Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome:
+    {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\CCORDE~1\AppData\L...},
+    goog:chromeOptions: {debuggerAddress: localhost:62493}, javascriptEnabled: true, networkConnectionEnabled: false,
+    pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true,
+    strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior:
+    dismiss and notify}
+    Session ID: 7e60024f81ce06fd7a415363c4838829
+    *** Element info: {Using=name, value=userName}&#13;
+    co.com.test.vivanda.tasks.Select.performAs(Enterokay.java:29)&#13;
+    co.com.test.vivanda.stepdefinitions.VivandaStepDefinitions.enterAccessCredentials(BankChallegeStepDefinitions.java:34)&#13;
+    cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>
